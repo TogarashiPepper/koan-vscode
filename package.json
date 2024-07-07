@@ -1,0 +1,25 @@
+{
+  "name": "koan",
+  "displayName": "koan",
+  "description": "An extension for support for the koan programming language",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.91.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "koan",
+      "aliases": ["koan", "koan"],
+      "extensions": [".koan",".kn"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "koan",
+      "scopeName": "source.koan",
+      "path": "./syntaxes/koan.tmLanguage.json"
+    }]
+  }
+}
