@@ -3,6 +3,7 @@
   "displayName": "koan",
   "description": "An extension for support for the koan programming language",
   "version": "0.0.1",
+  "repository": "https://github.com/TogarashiPepper/koan-vscode",
   "engines": {
     "vscode": "^1.91.0"
   },
