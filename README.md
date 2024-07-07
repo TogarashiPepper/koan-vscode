@@ -6,6 +6,8 @@ To install this extension, run these commands:
 
 
 ```bash
+git clone https://github.com/TogarashiPepper/koan-vscode.git
+cd koan-vscode
 npx @vscode/vsce -- package
 code --install-extension *.vsix
 rm -i *.vsix
