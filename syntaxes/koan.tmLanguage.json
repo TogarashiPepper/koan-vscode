@@ -20,7 +20,7 @@
 			"patterns": [
                 {
                     "name": "keyword.other.koan",
-                    "match": "\\b(let)\\b"
+                    "match": "\\b(let|fun|if|else)\\b"
                 }
             ]
 		},
